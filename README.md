@@ -14,3 +14,6 @@ There are two branches: task01 and task02 corresponding to both the tasks.
 
 #### Task 2
 ![Task2](https://github.com/weird-analyst/codingweek-webdev/assets/133852661/49422184-1ceb-4731-b6eb-b914ca618daa)
+
+
+#### Note: The Website Does not work on Mozilla Firefox! It does work on OperaGX and Chrome.
