@@ -7,6 +7,7 @@ Branch: CSE
 ~~~
 
 Attached Screenshot:
-![Task2](https://github.com/weird-analyst/codingweek-webdev/assets/133852661/56222392-c24a-4d19-b318-d78253b30b2d)
+![task02](https://github.com/weird-analyst/codingweek-webdev/assets/133852661/10956e85-9c1e-480d-93f5-d165303e5ce6)
+
 
 Note: Do not use in Mozilla Firefox. Google Chrome and Opera GX Work fine
