@@ -42,7 +42,13 @@ async function main() {
     rank3im.innerHTML += '<img style = "max-width: 100%; max-height: 100%;" src="' + contributors[2].avatar + '"></img>';
 
     //Rank 4 to 8
-    const rank4 = document.querySelector('.rankings4');
+    var i = 0;
+    const rank = document.querySelector('.rankingsother');
+    for(i = 0; i<(Number(contributors.length) -3);i++){
+        rank.innerHTML += '<div class="other_rank"><p style="margin-left: 2.85%;">' + (i+4) + '</p><div class="image_placeholder"><img style = "max-width: 100%; max-height: 100%;" src="' + contributors[i+3].avatar + '"></div><p style="position: absolute; margin-left: 17.78%;">'+ contributors[i+3].name + '</p><p style="position: absolute; margin-left: 78.02%;">'+ contributors[i+3].points + '</p></div><div class="inter_rank"></div>';
+    }
+
+/*     const rank4 = document.querySelector('.rankings4');
     rank4.innerHTML += '<p style="margin-left: 2.85%;">4</p><div class="image_placeholder"><img style = "max-width: 100%; max-height: 100%;" src="' + contributors[3].avatar + '"></div><p style="position: absolute; margin-left: 17.78%;">'+ contributors[3].name + '</p><p style="position: absolute; margin-left: 78.02%;">'+ contributors[3].points + '</p>';
 
     const rank5 = document.querySelector('.rankings5'); 
@@ -56,6 +62,6 @@ async function main() {
 
     const rank8 = document.querySelector('.rankings8') 
     rank8.innerHTML += '<p style="margin-left: 2.85%;">8</p><div class="image_placeholder"><img style = "max-width: 100%; max-height: 100%;" src="' + contributors[7].avatar + '"></div><p style="position: absolute; margin-left: 17.78%;">'+ contributors[7].name + '</p><p style="position: absolute; margin-left: 78.02%;">'+ contributors[7].points + '</p>';
-
+ */
 
 }
